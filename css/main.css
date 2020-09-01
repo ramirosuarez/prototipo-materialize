@@ -1,0 +1,34 @@
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}	
+.cabezera{
+    background-color: yellow;
+    
+}
+
+
+.pagination li a{
+    padding: 0px;
+    margin: 0 4px ;
+}
+.pagination li a i{
+    border:1px solid black;
+
+   
+}
+
+.pagination{
+    display: flex;
+    align-items:center;
+    
+}
+.pag-titulo{
+    margin:0 5px;
+}
+
+.centrado{
+    display: flex;
+    align-items:center;
+}
+
