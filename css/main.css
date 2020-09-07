@@ -1,12 +1,14 @@
+
 .space-between{
     display: flex;
     justify-content: space-between;
+  
 }	
+
 .cabezera{
     background-color: yellow;
     
 }
-
 
 .pagination li a{
     padding: 0px;
@@ -18,24 +20,33 @@
    
 }
 
-.centrado{
-    display: flex;
-    align-items:center;
-    
-}
 .pag-titulo{
     margin:0 5px;
 }
 
 .centrado{
-    display: flex;
+    display: inline-flex;
     align-items:center;
-}
-
-.row .col {
-    padding: 0px;
 }
 
 .border{
     border-bottom: 1px solid black;
+   
+}
+.publicidad{
+    display: inline-flex; flex-direction: column;
+}
+
+.p-0{
+    padding: 0 !important;
+}
+.collapsible-header,.collapsible-body{
+    border: none;
+    text-decoration: none;
+   }
+.collapsible-header{
+    padding: 5px 12px  ;
+}
+.collapsible-body{
+    padding: 5px 12px;;
 }
