@@ -2,225 +2,155 @@
 <html>
 
 <head>
-  <!--Import Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!--Import materialize.css-->
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
-  <link rel="stylesheet" href="css/main.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 
-  <!--Let browser know website is optimized for mobile-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<body>
-  <header class="cabezera">
+<style>
+    p {
+        margin: 0;
+    }
+</style>
+
+<body style="background-color:">
     <div class="row">
-      <div class="col m10 offset-m1 centrado">
-        <div class="col m3 s12">
-          <p>Amazing store</p>
-        </div>
-        <div class="col m3 s6">
-          <p>my city: los angeles</p>
-        </div>
-        <div class="col m2 s6">
-          <p>8 800 505-04-83</p>
-        </div>
-        <div class="col m4 space-between s12">
-          <a href="">shipping</a>
-          <a href="">Blog</a>
-          <a href="">company</a>
-          <a href="">my account</a>
-        </div>
-      </div>
-    </div>
-  </header>
+        <style>
+            html {
+                height: 100vh
+            }
 
+            body {
+                background-image: url(img/fondo.png);
+                background-size: cover;
+            }
 
-  <div class="row">
-    <div class="col m10 offset-m1">
-      <!-- Page Layout here -->
+            nav {
+                height: 0px;
 
-      <div class="col m3 publicidad">
-        <div class="">
-          <ul class="collapsible ">
-            <li class="">
-              <div class="collapsible-header">First</div>
-              <div class="collapsible-body">
-                <ul><a href="">1</a></ul>
-                <ul><a href="">2</a></ul>
-                <ul><a href="">3</a></ul>
-                <ul><a href="">4</a></ul>
-                <ul><a href="">5</a></ul>
-              </div>
-            </li>
-            <li>
-              <div class="collapsible-header">Second</div>
-              <div class="collapsible-body">Lorem ipsum dolor sit amet.</div>
-            </li>
-            <li>
-              <div class="collapsible-header">Third</div>
-              <div class="collapsible-body ">Lorem ipsum dolor sit amet.</div>
-            </li>
-          </ul>
-        </div>
-        <div class="">
-          <p>
-            lololol
-          </p>
-          <p>llll</p>
-        </div>
-        <!-- Grey navigation panel -->
-      </div>
-      <div class="col m9">
-        <div class="col m12 p-0">
-          <div class="left">
-            <p>creams & gels</p>
-          </div>
-          <div class="right">
-            <ul class="pagination centrado">
-              <p class="pag-titulo">showing 60 of 393</p>
-              <li class=""><a href="#!"><i class="material-icons">chevron_right</i></a></li>
-              <li class=""><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+            }
+
+            .col.s10.offset-s1:last-of-type {
+                padding-top: 0;
+            }
+        </style>
+        <!-- menu -->
+        <nav class="transparent" style="margin-top: 20px;">
+            <!-- navbar content here  -->
+            <ul id="slide-out" class="sidenav">
+
+                <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                <li><a href="#!">Second Link</a></li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <li><a class="subheader">Subheader</a></li>
+                <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
             </ul>
-          </div>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </nav>
+        <!-- fin menu -->
+        <div class="col s10 offset-s1"
+            >
+            <div style="display: flex; height:100vh;  flex-direction: column !important;justify-content: space-around;">
+
+                <div class="card" style="border-radius: 10px; ">
+                    <div class="row" style="padding: 12px 0;margin-bottom: 0; ">
+                        <div class="col s2" style="position: relative;left: -24px;">
+                            <img class="circle" src="img/descarga (1).jpeg" alt="" style="width: 50px;height: 50px;">
+                        </div>
+                        <div class="col s7" style="padding: 0; margin: 0;">
+                            <p>Pizza</p>
+                            <p>25 itmes</p>
+                        </div>
+                        <div style="position: relative; right: -40px; width: 12px; height: 12px;" class="col s3">
+                            <a style="background-color: white;" class="btn-floating">
+                                <i style="color: red;" class="material-icons">chevron_right</i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card" style="border-radius: 10px;">
+                    <div class="row" style="padding: 12px 0;margin-bottom: 0;">
+                        <div class="col s2" style="position: relative;left: -24px;">
+                            <img class="circle" src="img/descarga (1).jpeg" alt="" style="width: 50px;height: 50px;">
+                        </div>
+                        <div class="col s7" style="padding: 0; margin: 0;">
+                            <p>Pizza</p>
+                            <p>25 itmes</p>
+                        </div>
+                        <div style="position: relative; right: -43px; width: 12px; height: 12px;" class="col s3">
+                            <a style="background-color: white;" class="btn-floating">
+                                <i style="color: red;" class="material-icons">chevron_right</i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card" style="border-radius: 10px;">
+                    <div class="row" style="padding: 12px 0;margin-bottom: 0;">
+                        <div class="col s2" style="position: relative;left: -24px;">
+                            <img class="circle" src="img/descarga (1).jpeg" alt="" style="width: 50px;height: 50px;">
+                        </div>
+                        <div class="col s7" style="padding: 0; margin: 0;">
+                            <p>Pizza</p>
+                            <p>25 itmes</p>
+                        </div>
+                        <div style="position: relative; right: -43px; width: 12px; height: 12px;" class="col s3">
+                            <a style="background-color: white;" class="btn-floating">
+                                <i style="color: red;" class="material-icons">chevron_right</i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card" style="border-radius: 10px;">
+                    <div class="row" style="padding: 12px 0;margin-bottom: 0;">
+                        <div class="col s2" style="position: relative;left: -24px;">
+                            <img class="circle" src="img/descarga (1).jpeg" alt="" style="width: 50px;height: 50px;">
+                        </div>
+                        <div class="col s7" style="padding: 0; margin: 0;">
+                            <p>Pizza</p>
+                            <p>25 itmes</p>
+                        </div>
+                        <div style="position: relative; right: -43px; width: 12px; height: 12px;" class="col s3">
+                            <a style="background-color: white;" class="btn-floating">
+                                <i style="color: red;" class="material-icons">chevron_right</i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card" style="border-radius: 10px;">
+                    <div class="row" style="padding: 12px 0;margin-bottom: 0;">
+                        <div class="col s2" style="position: relative;left: -24px;">
+                            <img class="circle" src="img/descarga (1).jpeg" alt="" style="width: 50px;height: 50px;">
+                        </div>
+                        <div class="col s7" style="padding: 0; margin: 0;">
+                            <p>Pizza</p>
+                            <p>25 itmes</p>
+                        </div>
+                        <div style="position: relative; right: -43px; width: 12px; height: 12px;" class="col s3">
+                            <a style="background-color: white;" class="btn-floating">
+                                <i style="color: red;" class="material-icons">chevron_right</i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
-        <div class="col m12 p-0">
-
-          <div class="space-between border">
-            <div class="">
-              <p class="">brand: all brands</p>
-            </div>
-            <div class="">
-              <p class="">sign type: for oily skin</p>
-            </div>
-            <div class="">
-              <p class="">age: 50+</p>
-            </div>
-            <div class="">
-              <p class=" right-align">sort: by popularity</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col s12 m3">
-              <div class="card">
-                <div class="card-image"><img src="img/1.jpg"></div>
-                <div class="card-content">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="card-action">
-                  <a href="#">This is a link</a>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m3">
-              <div class="card">
-                <div class="card-image">
-                  <img src="img/1.jpg">
-
-                </div>
-                <div class="card-content">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="card-action">
-                  <a href="#">This is a link</a>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m3">
-              <div class="card">
-                <div class="card-image">
-                  <img src="img/1.jpg">
-
-                </div>
-                <div class="card-content">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="card-action">
-                  <a href="#">This is a link</a>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m3">
-              <div class="card">
-                <div class="card-image">
-                  <img src="img/1.jpg">
-                </div>
-                <div class="card-content">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="card-action">
-                  <a href="#">This is a link</a>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m3">
-              <div class="card">
-                <div class="card-image">
-                  <img src="img/1.jpg">
-
-                </div>
-                <div class="card-content">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="card-action">
-                  <a href="#">This is a link</a>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m3">
-              <div class="card">
-                <div class="card-image">
-                  <img src="img/1.jpg">
-
-                </div>
-                <div class="card-content">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="card-action">
-                  <a href="#">This is a link</a>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m3">
-              <div class="card">
-                <div class="card-image">
-                  <img src="img/1.jpg">
-
-                </div>
-                <div class="card-content">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="card-action">
-                  <a href="#">This is a link</a>
-                </div>
-              </div>
-            </div>
-            <div class="col s12 m3">
-              <div class="card">
-                <div class="card-image">
-                  <img src="img/1.jpg">
-                </div>
-                <div class="card-content">
-                  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                </div>
-                <div class="card-action">
-                  <a href="#">This is a link</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-
     </div>
     <!--JavaScript at end of body for optimized loading-->
-    <script src=""></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
-
+    <script src="js/app.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,95 @@
+.caja1 {
+    /*border: 1px solid black;*/
+    background: red;
+
+
+}
+
+.column {
+    display: flex;
+    height: 100vh;
+    flex-direction: column !important;
+    justify-content: space-around;
+}
+
+.dflex {
+    display: flex;
+    height: 100vh;
+    flex-direction: column !important;
+    justify-content: space-around;
+}
+
+.centrado {
+    display: flex;
+    justify-content: space-around;
+}
+
+.caja2 {
+    background: blue;
+    height: 100vh;
+    width: 100vh;
+}
+
+.row {
+    margin-bottom: 0;
+}
+
+
+
+.collapsible {
+    margin: 0 !important;
+}
+
+.nav-wrapper {
+    color: white;
+
+}
+
+.input-field {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+img {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.img {
+    position: relative;
+
+    left: -25px;
+}
+
+.card {
+    align-items: center;
+    padding: 0 !important;
+    width:75vw !important;
+    border-radius: 10px;
+
+}
+
+.card-content {
+    padding-left: 0 !important;
+
+}
+
+.material-icons {
+
+    color: red;
+}
+
+.boton{
+    position: relative;
+
+    left: 24vw;
+}
+
+.titulo{
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.sub{
+    color:grey;
+}
